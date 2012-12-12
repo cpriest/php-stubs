@@ -292,7 +292,7 @@ function preg_filter ($regex, $replace, $subject, $limit, &$count) {}
  * @param string $subject <p>
  * The input string.
  * </p>
- * @param int $limit [optional] <p>
+ * @param int|null $limit [optional] <p>
  * If specified, then only substrings up to limit
  * are returned with the rest of the string being placed in the last
  * substring. A limit of -1, 0 or null means "no limit"
